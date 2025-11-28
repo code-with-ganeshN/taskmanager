@@ -1,0 +1,17 @@
+// src/api/api.js
+import axios from "axios";
+
+const API = axios.create({
+  baseURL: "http://localhost:5000/api/admin", // <-- should match backend routes
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
+
+API.interceptors.request.use((config) => {
+  const token = localStorage.getItem("token"); // your JWT
+  if (token) config.headers.Authorization = `Bearer ${token}`;
+  return config;
+});
+
+export default API;
