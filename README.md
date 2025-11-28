@@ -11,7 +11,7 @@
 Task Manager is a full-stack web application designed to streamline task assignment, tracking, and team collaboration. Admins can create and assign tasks, manage employees, and monitor progress. Employees can view assigned tasks, update status, add comments, and track task history.
 
 **Test Credentials:**
-- Admin: `admin@example.com` / `Admin@123`
+- Admin: `test@example.com` / `test@123`
 - Employee: Any employee created through the admin panel
 
 ---
