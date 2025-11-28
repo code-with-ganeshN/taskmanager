@@ -90,9 +90,7 @@ Task Manager is a full-stack web application designed to streamline task assignm
 
 4. **Start backend server:**
    ```bash
-   npm start
-   # or with auto-reload:
-   npm run dev
+   node server.js
    ```
    Backend runs on `http://localhost:5000`
 
@@ -124,7 +122,7 @@ Task Manager is a full-stack web application designed to streamline task assignm
 **Terminal 1 - Backend:**
 ```bash
 cd backend
-npm run dev
+node server.js
 ```
 
 **Terminal 2 - Frontend:**
