@@ -1,15 +1,10 @@
-#  Backend Routes testing video link in postman
+#  Task Manager Application 
+
+   https://drive.google.com/file/d/1o4vwrx-ZEfbr7GlB72jT-RVWemysu6jE/view?usp=sharing
+
+#  Backend Routes testing(postman) video link
    
    https://drive.google.com/file/d/1Saj3JJsx9ghX2ckc38Xf1D5vPzqw6rmJ/view?usp=sharing
-#  Task Manager Application
-
-A comprehensive task management system with role-based access control for admins and employees. Built with modern web technologies for efficient team collaboration and task tracking.
-
-**Live Demo:** 
-- Frontend: http://localhost:5174
-- Backend API: http://localhost:5000
-
----
 
 ##  Overview
 
