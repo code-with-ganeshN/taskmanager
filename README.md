@@ -1,4 +1,4 @@
-# 📋 Task Manager Application
+#  Task Manager Application
 
 A comprehensive task management system with role-based access control for admins and employees. Built with modern web technologies for efficient team collaboration and task tracking.
 
@@ -8,7 +8,7 @@ A comprehensive task management system with role-based access control for admins
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 Task Manager is a full-stack web application designed to streamline task assignment, tracking, and team collaboration. Admins can create and assign tasks, manage employees, and monitor progress. Employees can view assigned tasks, update status, add comments, and track task history.
 
@@ -18,7 +18,7 @@ Task Manager is a full-stack web application designed to streamline task assignm
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
@@ -31,7 +31,7 @@ Task Manager is a full-stack web application designed to streamline task assignm
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 19** - UI library with hooks and functional components
@@ -59,7 +59,7 @@ Task Manager is a full-stack web application designed to streamline task assignm
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -133,7 +133,7 @@ npm run dev
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 taskManager/
@@ -217,99 +217,99 @@ taskManager/
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Admin Features
 
 #### Dashboard
-- 📊 Real-time statistics (total tasks, employees, completed tasks)
-- 📋 Recent tasks overview
-- 🔄 Quick access to all sections
+-  Real-time statistics (total tasks, employees, completed tasks)
+-  Recent tasks overview
+-  Quick access to all sections
 
 #### Task Management
-- ✅ Create tasks with title, description, priority, deadline
-- 🔍 Search tasks by title/description
-- 🏷️ Filter by status (All, Pending, In Progress, Completed)
-- 👥 Assign tasks to single or multiple employees
-- ✏️ Edit task details (title, description, category, priority, deadline)
-- 🗑️ Soft delete with restore functionality
-- 📝 View task comments and update history
-- 👀 Click task to open detailed view with full history
+-  Create tasks with title, description, priority, deadline
+-  Search tasks by title/description
+-  Filter by status (All, Pending, In Progress, Completed)
+-  Assign tasks to single or multiple employees
+-  Edit task details (title, description, category, priority, deadline)
+-  Soft delete with restore functionality
+-  View task comments and update history
+-  Click task to open detailed view with full history
 
 #### Employee Management
-- 👥 View all active employees
-- ➕ Add new employees with validation
+-  View all active employees
+-  Add new employees with validation
   - Email format validation
   - Password strength (min 6 characters)
   - Duplicate email prevention
   - Optional fields (job title, department, phone)
-- 🔍 Search employees by name, email, or job title
-- ✏️ Update employee information
-- 🗑️ Soft delete with restore functionality
+-  Search employees by name, email, or job title
+-  Update employee information
+-  Soft delete with restore functionality
 
 #### Notifications
-- 🔔 Real-time task notifications
-- 📧 Employee activity alerts
-- 🗑️ Delete notifications
+-  Real-time task notifications
+-  Employee activity alerts
+-  Delete notifications
 
 #### Profile
-- 👤 View admin profile information
-- ✏️ Edit profile details
+-  View admin profile information
+-  Edit profile details
 
 ### Employee Features
 
 #### My Tasks Dashboard
-- 📋 View all assigned tasks
-- 🔍 Search tasks by title/description
-- 🏷️ Filter by status with statistics
-- 📊 Task statistics cards (Total, Completed, In Progress, Pending)
-- 📌 Recent tasks display
+-  View all assigned tasks
+-  Search tasks by title/description
+-  Filter by status with statistics
+-  Task statistics cards (Total, Completed, In Progress, Pending)
+-  Recent tasks display
 
 #### Task Details
-- 👀 View complete task information
-- 💬 Add comments and view discussion history
-- ⬆️ Update task status (Pending → In Progress → Completed)
-- 📜 View full task history with timestamps and status changes
-- 📅 See deadline and days remaining
-- 👥 View assigned team members
-- 🔙 Navigate back to task list
+-  View complete task information
+-  Add comments and view discussion history
+-  Update task status (Pending → In Progress → Completed)
+-  View full task history with timestamps and status changes
+-  See deadline and days remaining
+-  View assigned team members
+-  Navigate back to task list
 
 #### Notifications
-- 🔔 View all notifications
-- 📝 See notification details and timestamps
-- 🗑️ Delete notifications
+-  View all notifications
+-  See notification details and timestamps
+-  Delete notifications
 
 #### Profile
-- 👤 View employee profile
-- ✏️ Update profile information
+-  View employee profile
+-  Update profile information
 
 ### Common Features
 
 #### Authentication & Security
-- 🔐 JWT-based authentication
-- 🛡️ Role-based access control (Admin/Employee)
-- 🔒 Protected routes with automatic redirects
-- 🚪 Secure logout
+-  JWT-based authentication
+-  Role-based access control (Admin/Employee)
+-  Protected routes with automatic redirects
+-  Secure logout
 
 #### UI/UX
-- 🎨 Modern gradient design with Tailwind CSS
-- 📱 Responsive layout (mobile, tablet, desktop)
-- ⚡ Smooth transitions and hover effects
-- 🎯 Intuitive navigation with sidebars
-- 💡 Color-coded status badges (green=completed, blue=in-progress, gray=pending)
-- ⏳ Loading spinners during API calls
-- ⚠️ Error messages and validation feedback
-- ✅ Success notifications
+-  Modern gradient design with Tailwind CSS
+-  Responsive layout (mobile, tablet, desktop)
+-  Smooth transitions and hover effects
+-  Intuitive navigation with sidebars
+-  Color-coded status badges (green=completed, blue=in-progress, gray=pending)
+-  Loading spinners during API calls
+-  Error messages and validation feedback
+-  Success notifications
 
 #### Data Management
-- 📊 Real-time data updates
-- 🔍 Search and filter functionality
-- 📈 Statistics and analytics
-- 📜 Complete audit trail (history)
+-  Real-time data updates
+-  Search and filter functionality
+-  Statistics and analytics
+-  Complete audit trail (history)
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /auth/login` - User login
@@ -340,7 +340,7 @@ taskManager/
 
 ---
 
-## 💡 Assumptions & Design Decisions
+##  Assumptions & Design Decisions
 
 ### 1. Authentication Model
 **Assumption**: Admin creates employees; employees cannot self-register.
@@ -384,66 +384,66 @@ taskManager/
 
 ---
 
-## 🎁 Bonus Features Implemented
+##  Bonus Features Implemented
 
 ### 1. Advanced Search & Filter
-- ✅ Real-time search across multiple fields
-- ✅ Multi-status filtering on task lists
-- ✅ Employee search by name/email/title
+-  Real-time search across multiple fields
+-  Multi-status filtering on task lists
+-  Employee search by name/email/title
 
 ### 2. Task History & Audit Trail
-- ✅ Complete task status change history
-- ✅ Timestamps for all updates
-- ✅ User attribution for each change
-- ✅ Sticky sidebar view with newest-first chronology
+-  Complete task status change history
+-  Timestamps for all updates
+-  User attribution for each change
+-  Sticky sidebar view with newest-first chronology
 
 ### 3. Comment System with User Attribution
-- ✅ Comments display who commented and when
-- ✅ Comments embedded in task details
-- ✅ Rich comment display with formatting
+-  Comments display who commented and when
+-  Comments embedded in task details
+-  Rich comment display with formatting
 
 ### 4. Enhanced Employee Management
-- ✅ Add employees directly from admin panel
-- ✅ Email validation and duplicate prevention
-- ✅ Password strength requirements
-- ✅ Optional fields (title, department, phone)
-- ✅ Search functionality across all fields
+-  Add employees directly from admin panel
+-  Email validation and duplicate prevention
+-  Password strength requirements
+-  Optional fields (title, department, phone)
+-  Search functionality across all fields
 
 ### 5. Modern UI/UX Design
-- ✅ Gradient backgrounds and buttons
-- ✅ Hover effects and smooth transitions
-- ✅ Color-coded status and priority badges
-- ✅ Loading spinners and empty states
-- ✅ Professional shadows and rounded corners
-- ✅ 50+ lucide-react icons
-- ✅ Responsive design for all screen sizes
+-  Gradient backgrounds and buttons
+-  Hover effects and smooth transitions
+-  Color-coded status and priority badges
+-  Loading spinners and empty states
+-  Professional shadows and rounded corners
+-  50+ lucide-react icons
+-  Responsive design for all screen sizes
 
 ### 6. Data Organization
-- ✅ Separate deleted items section
-- ✅ Statistics cards with icons
-- ✅ Recent items overview
-- ✅ Inline editing capabilities
+-  Separate deleted items section
+-  Statistics cards with icons
+-  Recent items overview
+-  Inline editing capabilities
 
 ### 7. Error Handling
-- ✅ Comprehensive form validation
-- ✅ User-friendly error messages
-- ✅ Success notifications
-- ✅ Loading states
+-  Comprehensive form validation
+-  User-friendly error messages
+-  Success notifications
+-  Loading states
 
 ### 8. Task Details Pages
-- ✅ Admin TaskDetails with edit capabilities
-- ✅ Employee TaskDetails with status update
-- ✅ Full history sidebar with status changes
-- ✅ Comment discussion threads
+-  Admin TaskDetails with edit capabilities
+-  Employee TaskDetails with status update
+-  Full history sidebar with status changes
+-  Comment discussion threads
 
 ### 9. Dashboard Consistency
-- ✅ Employee dashboard and MyTasks pages have consistent UI
-- ✅ Both show statistics and task overview
-- ✅ Unified navigation experience
+-  Employee dashboard and MyTasks pages have consistent UI
+-  Both show statistics and task overview
+-  Unified navigation experience
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend won't start
 ```bash
@@ -490,28 +490,6 @@ npm run dev
 
 ---
 
-## ✅ Verification Checklist
-
-Before deployment, verify:
-- [ ] Backend server running on port 5000
-- [ ] Frontend server running on port 5174
-- [ ] MongoDB connection successful
-- [ ] Test login works with admin credentials
-- [ ] Create and assign a task
-- [ ] View task as employee
-- [ ] Update task status
-- [ ] Add comments to task
-- [ ] View task history
-- [ ] Add new employee
-- [ ] Search functionality works
-- [ ] Filter by status works
-- [ ] Logout and re-login works
-- [ ] No console errors
-- [ ] Responsive design on mobile
-
----
-
-## 📝 Development Notes
 
 ### Database Schema Highlights
 
@@ -548,26 +526,3 @@ npm run build
 # Output in dist/ folder
 # Deploy to hosting (Vercel, Netlify, AWS, etc.)
 ```
-
----
-
-## 📞 Support
-
-For issues or questions:
-1. Check the troubleshooting section above
-2. Review browser console for error messages (F12)
-3. Check backend server logs
-4. Verify all environment variables are set correctly
-5. Check `.env` file has correct values
-6. Review MongoDB Atlas IP whitelist
-
----
-
-## 📄 License
-
-This project is for educational and demonstration purposes.
-
----
-
-**Last Updated**: November 28, 2025
-**Status**: ✅ Production Ready
