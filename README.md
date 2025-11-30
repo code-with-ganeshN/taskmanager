@@ -26,6 +26,7 @@ Task Manager is a full-stack web application designed to streamline task assignm
 - [Assumptions & Design Decisions](#assumptions--design-decisions)
 - [Bonus Features](#bonus-features)
 - [Troubleshooting](#troubleshooting)
+- [Future Enhancements](#enhancements)
 
 ---
 
@@ -524,3 +525,12 @@ npm run build
 # Output in dist/ folder
 # Deploy to hosting (Vercel, Netlify, AWS, etc.)
 ```
+
+
+## Future Enhancements
+- Refresh Token Rotation (JWT mode) (or) Sessio-based Authentication(Best One)
+- Real-Time Notofications and alerts using socket.io and nodemailer.
+- Adding Sub Tasks and for Tasks
+- Video and Image upload about tasks support(storing this files in cloudinary)
+- Real-time Task chat uisng websockets(socket.io)
+- Indexing on frequently accessed fileds for query optimization
